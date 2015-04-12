@@ -41,22 +41,22 @@ block m217=rectangle(pack(
     Label("Calculus I")),Label("Math 217"),(1* year,0),palegreen);
 block m317=rectangle(pack(
     Label("Advanced"),
-    Label("Calculus II")),Label("Math 317"),((1+sem)*year,0),paleyellow);
+    Label("Calculus II")),Label("Math 317"),((1+sem)*year,0),palegreen);
 block m334=rectangle(pack(
     Label("Intro to"),
-    Label("Diff. Eqns.")),Label("Math 334"),((1+sem)*year,2req),paleyellow);
+    Label("Diff. Eqns.")),Label("Math 334"),((1+sem)*year,2req),palegreen);
 block m417=rectangle(pack(
     Label("Real"),
-    Label("Variables I")),Label("Math 417"),(2* year,0));
+    Label("Variables I")),Label("Math 417"),(2* year,0),paleyellow);
 block m418=rectangle(pack(
     Label("Real"),
     Label("Variables II")),Label("Math 418"),((2+sem)*year,-req));
 block m411=rectangle(pack(
     Label("Complex"),
-    Label("Variables")),Label("Math 411"),((2)*year,1req));
+    Label("Variables")),Label("Math 411"),((2)*year,1req),paleyellow);
 block m448=rectangle(pack(
     Label("Diff. Geometry"),
-    Label("\& Tensor Anal.")),Label("Math 448"),(2*year,-2theme+1req));
+    Label("\& Tensor Anal.")),Label("Math 448"),(2*year,-2theme+1req),paleyellow);
 
 block m521=rectangle(pack(
     Label("Differential"),
@@ -98,12 +98,12 @@ block m227=rectangle(pack(
     Label("Linear"),
     Label("Algebra II")),Label("Math 227"),((0+sem)*year,-2theme));
 block m328=rectangle(Label("Group Theory"),Label("Math 328"),((1+sem)* year,-2theme),palegreen);
-block m326=rectangle(Label("Rings \& Modules"),Label("Math 326"),(1* year,-2theme-2req),paleyellow);
-block m424=rectangle(Label("Groups \& Fields"),Label("Math 424"),((2)* year,-2theme-2req));
+block m326=rectangle(Label("Rings \& Modules"),Label("Math 326"),(1* year,-2theme-2req),palegreen);
+block m424=rectangle(Label("Groups \& Fields"),Label("Math 424"),((2)* year,-2theme-2req),paleyellow);
 
 block m429=rectangle(pack(
     Label("Advanced"),
-    Label("Group Theory")),Label("Math 429"),((2+sem)* year,-2theme),paleblue);
+    Label("Group Theory")),Label("Math 429"),((2+sem)* year,-2theme),paleyellow);
 block m428=rectangle(pack(
     Label("Advanced"),
     Label("Ring Theory")),Label("Math 428"),((1+sem)* year,-2theme-1req),paleblue);
@@ -115,8 +115,8 @@ block m682=rectangle(pack(
     Label("Algebra")),Label("Math 682"),((4)*year,-2theme-req),palered);
 
 // Other
-block m447=rectangle(Label("Topology"),Label("Math 447"),((2+sem)*year,-2req),paleyellow);
-block m499=rectangle(Label("Research Project"),Label("Math 499"),(2*year,-req));
+block m447=rectangle(Label("Topology"),Label("Math 447"),((2+sem)*year,-2req),palegreen);
+block m499=rectangle(Label("Research Project"),Label("Math 499"),(2*year,-req),paleyellow);
 block m530=rectangle(pack(
     Label("Algebraic"),
     Label("Topology")),Label("Math 530"),((3)*year,-theme+0req),palered);
