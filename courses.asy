@@ -22,8 +22,8 @@ import flowchart;
 
 /*block block1=rectangle(Label("Example",magenta),
                pack(Label("Start:",heavygreen),"",Label("$A:=0$",blue),
-                "$B:=1$"),(-0.5,3),palegreen,palecyan,red);
-block block2=diamond(Label("Choice?",blue),(0,2),palegreen,red);
+                "$B:=1$"),(-0.5,3),palecyan,red);
+block block2=diamond(Label("Choice?",blue),(0,2),red);
 block block3=roundrectangle("Do something",(-1,1));
 block block4=bevel("Don't do something",(1,1));
 block block5=circle("End",(0,0));*/
@@ -34,17 +34,17 @@ real req = 1.4; // Gap between corequisite courses
 real theme = 3; // Gap between Algebra / Analysis / ...
 
 // Analysis
-block m117=rectangle(Label("Calculus I"),Label("Math 117"),(0* year,0),palegreen);
-block m118=rectangle(Label("Calculus II"),Label("Math 118"),((0+sem)*year,0),palegreen);
+block m117=rectangle(Label("Calculus I"),Label("Math 117"),(0* year,0));
+block m118=rectangle(Label("Calculus II"),Label("Math 118"),((0+sem)*year,0));
 block m217=rectangle(pack(
     Label("Advanced"),
-    Label("Calculus I")),Label("Math 217"),(1* year,0),palegreen);
+    Label("Calculus I")),Label("Math 217"),(1* year,0));
 block m317=rectangle(pack(
     Label("Advanced"),
-    Label("Calculus II")),Label("Math 317"),((1+sem)*year,0),paleyellow);
+    Label("Calculus II")),Label("Math 317"),((1+sem)*year,0));
 block m334=rectangle(pack(
     Label("Intro to"),
-    Label("Diff. Eqns.")),Label("Math 334"),((1+sem)*year,2req),paleyellow);
+    Label("Diff. Eqns.")),Label("Math 334"),((1+sem)*year,2req));
 block m417=rectangle(pack(
     Label("Real"),
     Label("Variables I")),Label("Math 417"),(2* year,0));
@@ -97,8 +97,8 @@ block m127=rectangle(pack(
 block m227=rectangle(pack(
     Label("Linear"),
     Label("Algebra II")),Label("Math 227"),((0+sem)*year,-2theme));
-block m328=rectangle(Label("Group Theory"),Label("Math 328"),((1+sem)* year,-2theme),palegreen);
-block m326=rectangle(Label("Rings \& Modules"),Label("Math 326"),(1* year,-2theme-2req),paleyellow);
+block m328=rectangle(Label("Group Theory"),Label("Math 328"),((1+sem)* year,-2theme));
+block m326=rectangle(Label("Rings \& Modules"),Label("Math 326"),(1* year,-2theme-2req));
 block m424=rectangle(Label("Groups \& Fields"),Label("Math 424"),((2)* year,-2theme-2req));
 
 block m429=rectangle(pack(
@@ -115,19 +115,19 @@ block m682=rectangle(pack(
     Label("Algebra")),Label("Math 682"),((4)*year,-2theme-req),palered);
 
 // Other
-block m447=rectangle(Label("Topology"),Label("Math 447"),((2+sem)*year,-2req),paleyellow);
+block m447=rectangle(Label("Topology"),Label("Math 447"),((2+sem)*year,-2req));
 block m499=rectangle(Label("Research Project"),Label("Math 499"),(2*year,-req));
 block m530=rectangle(pack(
     Label("Algebraic"),
     Label("Topology")),Label("Math 530"),((3)*year,-theme+0req),palered);
-block m222=rectangle(Label("Discrete Math"),Label("Math 222"),((1+sem)*year,-2theme-5req),palegreen);
-block m322=rectangle(Label("Graph Theory"),Label("Math 322"),(2*year,-2theme-5req),lightgray);
-block m422=rectangle(Label("Coding Theory"),Label("Math 422"),((2+sem)*year,-2theme-5req),lightgray);
-block m421=rectangle(Label("Combinatorics"),Label("Math 421"),((2)*year,-2theme-4req),lightgray);
-block m324=rectangle(Label("Number Theory"),Label("Math 324"),((1+sem)*year,-2theme-3req),paleblue);
+block m222=rectangle(Label("Discrete Math"),    Label("Math 222"),  ((1+sem)*year,-2theme-5req),    lightgray);
+block m322=rectangle(Label("Graph Theory"),     Label("Math 322"),  (2*year,-2theme-5req),          lightgray);
+block m422=rectangle(Label("Coding Theory"),    Label("Math 422"),  ((2+sem)*year,-2theme-5req),    lightgray);
+block m421=rectangle(Label("Combinatorics"),    Label("Math 421"),  ((2)*year,-2theme-4req),        lightgray);
+block m324=rectangle(Label("Number Theory"),    Label("Math 324"),  ((1+sem)*year,-2theme-3req),    paleblue);
 block m512=rectangle(pack(
     Label("Algebraic"),
-    Label("Number Theory")),Label("Math 512"),((2+sem)*year,-2theme-2req),palered);
+    Label("Number Theory")),                    Label("Math 512"),  ((2+sem)*year,-2theme-2req),    palered);
 block m581=rectangle(Label("Group Theory"),Label("Math 581"),((2+sem)*year,-2theme-1req),palered);
 block m582=rectangle(Label("Rings \& Modules"),Label("Math 582"),((2+sem)*year,-2theme-3req),palered);
 
