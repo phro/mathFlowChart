@@ -10,11 +10,6 @@ To do:
         - Grey: required for Honors Math
         - Blue: optional but interesting
         - Red:  graduate level course
-        (Personal only)
-        - Green: Courses I've completed
-        - Yellow: Courses I'm registered in
-    - Create a git repository for this file
-        - have multiple editions, one personal, one for the U of A
 ********************************************************************************/
 size(0,750);
 
