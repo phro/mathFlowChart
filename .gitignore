@@ -1,2 +1,3 @@
 # Hide pdfs from the repository
 *.pdf
+*.eps
