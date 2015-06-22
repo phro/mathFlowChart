@@ -53,7 +53,7 @@ block m411=rectangle(pack(
     Label("Variables")),Label("Math 411"),((2)*year,1req),paleyellow);
 block m448=rectangle(pack(
     Label("Diff. Geometry"),
-    Label("\& Tensor Anal.")),Label("Math 448"),(2*year,-2theme+1req),paleyellow);
+    Label("\& Tensor Anal.")),Label("Math 448"),(2*year,-2theme+1req));
 
 block m521=rectangle(pack(
     Label("Differential"),
