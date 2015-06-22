@@ -10,9 +10,14 @@ To do:
         - Gray:      required for Honors Math
         - Blue:      optional but interesting
         - Red:       graduate level course
-        For Personal Use:
+        For personal use only:
         - Green:     courses I've completed
         - Yellow:    current/ upcoming courses
+    - Build an array with courses, rather than a long list of block definitions.
+      That way, the transition between 'personal' and 'general' versions of the
+      flowchart will be cleaner. That is, there will be a course-type and
+      completion value associated to each course, then it would become simply a
+      matter of choosing which value to use for the color-picking.
 ********************************************************************************/
 size(0,750);
 
