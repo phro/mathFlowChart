@@ -21,8 +21,8 @@ import flowchart;
 // Set to true to see which courses have been completed.
 bool personal = false;
 
-pen complete = personal ? palegreen : gray;
-pen registered = personal ? yellow : gray;
+pen complete = personal ? palegreen : mediumgray;
+pen registered = personal ? yellow : mediumgray;
 
 /*block block1=rectangle(Label("Example",magenta),
                pack(Label("Start:",heavygreen),"",Label("$A:=0$",blue),
